@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: Warrior
   m_EditorClassIdentifier: Assembly-CSharp:MG.NM.Units:BasicUnit
   isPlayerUnit: 0
-  type: 0
+  type: 1
   unitName: 
-  friendlyPrefab: {fileID: 0}
-  enemyPrefab: {fileID: 0}
+  friendlyPrefab: {fileID: 5637870375619887590, guid: e07680182a843d64ba1c227723b7a2e6,
+    type: 3}
+  enemyPrefab: {fileID: 3213818503861845160, guid: 5632fa04db1ea2748a1e71eef76d5333,
+    type: 3}
   cost: 0
   attack: 0
   health: 0

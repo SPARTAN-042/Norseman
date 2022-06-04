@@ -9,6 +9,9 @@ namespace MG.NM.Player
     public class PlayerManager : MonoBehaviour
     {
         public static PlayerManager instance;
+
+        public Transform playerUnits;
+
         void Start()
         {
             instance = this;
