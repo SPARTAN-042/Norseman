@@ -10,6 +10,8 @@ namespace MG.NM.Units.Player
     {
         private NavMeshAgent navAgent;
 
+        public int cost, attack, atkRange, health, armor;
+
         public void OnEnable()
         {
             navAgent = GetComponent<NavMeshAgent>();
