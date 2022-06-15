@@ -1,0 +1,34 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+using MG.NM.InputManager;
+
+namespace MG.NM.Player
+{
+    public class PlayerManager : MonoBehaviour
+    {
+        public static PlayerManager instance;
+
+        public Transform playerUnits;
+        public Transform enemyUnits;
+
+        private void Awake()
+        {
+            instance = this;
+        }
+
+        private void Start()
+        {
+            Units.UnitHandler.instance.SetBasicUnitStats(playerUnits);
+            Units.UnitHandler.instance.SetBasicUnitStats(enemyUnits);
+        }
+
+        private void Update()
+        {
+            InputHandler.instance.HandleUnitMovement();
+        }
+    }
+}
+
+

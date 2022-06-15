@@ -15,8 +15,10 @@ MonoBehaviour:
   type: 1
   unitName: 
   unitPrefab: {fileID: 0}
-  cost: 100
-  attack: 50
-  atkRange: 1
-  health: 100
-  armor: 2
+  baseStats:
+    cost: 100
+    aggroRange: 110
+    atkRange: 1
+    attack: 50
+    health: 100
+    armor: 5
