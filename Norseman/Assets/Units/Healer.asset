@@ -9,17 +9,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 755777106f0d1a646a5ae400a11f3544, type: 3}
   m_Name: Healer
   m_EditorClassIdentifier: Assembly-CSharp:MG.NM.Units:BasicUnit
-  isPlayerUnit: 0
   type: 2
   unitName: 
-  friendlyPrefab: {fileID: 5637870375619887590, guid: e07680182a843d64ba1c227723b7a2e6,
-    type: 3}
-  enemyPrefab: {fileID: 3213818503861845160, guid: 5632fa04db1ea2748a1e71eef76d5333,
-    type: 3}
-  cost: 0
-  attack: 0
-  health: 0
-  armor: 0
+  unitPrefab: {fileID: 0}
+  baseStats:
+    cost: 250
+    aggroRange: 10
+    atkRange: 10
+    attack: 25
+    health: 50
+    armor: 0

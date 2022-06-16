@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3213818503861845159}
   - component: {fileID: 3213818503861845158}
   - component: {fileID: 3213818503861845161}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: enemyUnit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2093164091129633434}
   - component: {fileID: 85185708308167412}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Highlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
