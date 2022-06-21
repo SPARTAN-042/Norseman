@@ -11,7 +11,7 @@ namespace MG.NM.InputManager
 
         private RaycastHit hit;
 
-        private List<Transform> selectedUnits = new List<Transform>();
+        public List<Transform> selectedUnits = new List<Transform>();
 
         private bool isDragging = false;
 
