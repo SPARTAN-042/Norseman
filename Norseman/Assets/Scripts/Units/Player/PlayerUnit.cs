@@ -48,8 +48,7 @@ namespace MG.NM.Units.Player
         private void HandleHealth()
         {
             Camera camera = Camera.main;
-            unitStatDisplay.transform.LookAt(unitStatDisplay.transform.position +
-                camera.transform.rotation * Vector3.forward, camera.transform.rotation * Vector3.up);
+            unitStatDisplay.transform.LookAt(unitStatDisplay.transform.position + camera.transform.rotation * Vector3.forward, camera.transform.rotation * Vector3.up);
 
             healthBarAmount.fillAmount = currentHealth / baseStats.health;
 
