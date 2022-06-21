@@ -16,12 +16,13 @@ namespace MG.NM.Player
         private void Awake()
         {
             instance = this;
+            Units.UnitHandler.instance.SetBasicUnitStats(playerUnits);
+            Units.UnitHandler.instance.SetBasicUnitStats(enemyUnits);
         }
 
         private void Start()
         {
-            Units.UnitHandler.instance.SetBasicUnitStats(playerUnits);
-            Units.UnitHandler.instance.SetBasicUnitStats(enemyUnits);
+            
         }
 
         private void Update()
