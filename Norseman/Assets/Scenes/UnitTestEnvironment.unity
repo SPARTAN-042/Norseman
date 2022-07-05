@@ -143,7 +143,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 789807d00bccd4f4cb6ed7bb98f94fa7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 789807d00bccd4f4cb6ed7bb98f94fa7,
         type: 3}
@@ -625,7 +625,7 @@ PrefabInstance:
         type: 3}
       propertyPath: healthBarAmount
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1320289191}
     - target: {fileID: 1909605132694622710, guid: e07680182a843d64ba1c227723b7a2e6,
         type: 3}
       propertyPath: m_LocalScale.z
@@ -1190,6 +1190,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerUnits: {fileID: 1464775064}
   enemyUnits: {fileID: 323293247}
+--- !u!114 &1320289191 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4631656041820564757, guid: e07680182a843d64ba1c227723b7a2e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 472939730}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1350443099 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 34e03d4ccce6a5349a2c5e419e4fccf9,
@@ -1554,7 +1566,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 34e03d4ccce6a5349a2c5e419e4fccf9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 34e03d4ccce6a5349a2c5e419e4fccf9,
         type: 3}
